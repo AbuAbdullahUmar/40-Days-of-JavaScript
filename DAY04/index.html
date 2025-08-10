@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="./assignment.js"></script>
+    <title>Day 04</title>
+  </head>
+  <body>
+    <h1>Welcome to Day 04 of 40 Days of Javascript</h1>
+    <div>
+      <h2>Task 1. What will be the output of this code snippet and why?</h2>
+      <pre>
+let day = "Monday";
+
+switch (day) {
+   case "monday":
+       console.log("It's the start of the week.");
+       break;
+   default:
+       console.log("It's a normal day.");
+}
+      </pre>
+      <p style="color: rgb(107, 94, 29); font-weight: bold">
+        Result: It's a normal day.
+      </p>
+    </div>
+
+    <div>
+      <h2>Task 2. Build an ATM Cash Withdrawal System</h2>
+      <p>
+        Rajan goes to the Axis bank ATM. He enters an amount to withdraw. The
+        ATM only allows multiples of 100. Print “Withdrawal successful” if
+        valid, otherwise print “Invalid amount”.
+      </p>
+      <pre style="color: maroon">
+        let amount = 850;
+
+        if (amount % 100 === 0) {
+            console.log("Withdrawal successful")
+        } else {
+            console.log("Invalid amount")
+        }
+      </pre>
+
+      <p style="color: rgb(107, 94, 29); font-weight: bold">
+        Result: "Invalid amount" 👉 Check the console log.
+      </p>
+    </div>
+  </body>
+</html>
