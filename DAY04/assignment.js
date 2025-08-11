@@ -27,3 +27,26 @@ if (amount % 100 === 0) {
 } else {
     console.log("Invalid amount")
 }
+
+
+/*
+3. Build a Calculator with switch-case
+
+Write a simple calculator that takes an operator (+, -, , /, %) as input, and performs the operation on two numbers. Print the output on the console.
+*/
+let firstNumber = 10;
+let secondNumber = 20;
+
+let addingNumber = "%";
+
+switch (addingNumber) {
+    case "+" : console.log(firstNumber + secondNumber);
+    break;
+    case "-" : console.log(firstNumber - secondNumber);
+    break;
+    case "/" : console.log(firstNumber / secondNumber);
+    break;
+    case "%" : console.log(firstNumber % secondNumber);
+    break;
+    default: console.log('Please check the Operator');
+}
