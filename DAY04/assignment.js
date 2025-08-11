@@ -50,3 +50,71 @@ switch (addingNumber) {
     break;
     default: console.log('Please check the Operator');
 }
+/*
+4. Pay for your movie ticket
+Imagine, the INOX charges ticket prices based on age:
+
+Children (<18 years): $3
+Adults (18 - 60 years): $10
+Seniors (60+ years): $8
+Write a program that prints the ticket price based on the person’s age.
+
+//=== I improved it by adding viewers to calculate the mass price of the tickets.
+*/
+
+let age;
+let viewers = 10;
+
+age = 10;
+viewers;
+
+const childrensTicket = 3;
+const adultsTicket = 10;
+const seniorsTicket = 8;
+
+if (age < 18) {
+    console.log("Your Ticket Price is " , childrensTicket * viewers)
+} else if (age >= 18 && age <= 60) {
+    console.log("Your Ticket Price is " , adultsTicket * viewers)
+} else if (age >= 60){
+    console.log("Your Ticket Price is " , seniorsTicket * viewers);
+}
+/*
+5. Horoscope Sign Checker
+
+Write a program that prints the zodiac sign(Aries, Taurus, Gemini, etc.) based on a person’s birth month. Make it month bases, not date based. Like March and April borns are Aries, Aplil and May born are Taurus, and so on. Do not use if-else.
+*/
+
+let month;
+
+month = "July";
+
+switch (month) {
+    case "March":
+    case "April":
+        console.log("Aries ♈️");
+        break;
+    case "May":
+    case "Jun":
+        console.log("Taurus ♉️");
+        break;
+    case "July":
+    case "August":
+        console.log("Twins ♊️");
+        break;
+    case "September":
+    case "October":
+        console.log("Cancer ♋️");
+        break;
+    case "November":
+    case "December":
+        console.log("Leo ♌️");
+        break;
+    case "January":
+    case "February":
+        console.log("Virgo ♍️");
+        break
+    default:
+        console.log("Please ensure that you write the full name of the month with the first letter capitalized.");
+        break;
+}
