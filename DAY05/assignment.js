@@ -1,17 +1,5 @@
 console.log('Day 5 Assignment Script is loaded')
 /*
-
-> **DO NOT USE AI to FIND ANSWERS**. If you are stuck, let's discuss it on DISCORD and learn. Also, please note that none of the answers need you to create any UI. Just focus on the logic building and print the output on the browser console.
-
-
-
-
-
-
-## 6. Write your understanding on the difefrences between for, while, and do-while loop. Create their flow charts.
-*/
-
-/*
 ## 1. Generate a Pyramid Pattern using Nested Loop as it is shown below:
 
 ```bash
@@ -79,10 +67,17 @@ Input: 6789
 Output: 9876
 ```
 */
+/*
 
-let number = 1;
+## 6. Write your understanding on the difefrences between for, while, and do-while loop. Create their flow charts.
 
-while (number <= 5) { 
-    console.log(number); 
-    number++;
-}
+==> • For loop: When we are sure about how many times the fuction will loop we use for loop.
+- Initialize Variable; Check Condition; If True (Yes) then Update Variable. If False stop loop.
+
+==> • While loop: When we are unsure we use while loop.
+- Initialize Variable is optional; Check Condition; If True (Yes) then Update Variable until it become false.
+
+==> • do-while loop: When we want to loop at least once we use do-while loop.
+- Initialize Variable; Update Variable; Check Condition; If True (Yes) continue loop till it become false.
+*/
+
