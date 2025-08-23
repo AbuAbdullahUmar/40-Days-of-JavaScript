@@ -1,10 +1,5 @@
 console.log('Day 6 Assignment Script is loaded')
 /*
-3. Function to Check if a String is a Palindrome
-Create a function isPalindrome(str) that checks if a given string is a palindrome (reads the same forward and backward). You can not use any string function that we have not learned in the series so far.
-
-4. Write a Function to Find Factorial of a Number
-Create a function factorial(n) that returns the factorial of n. Example 5! = 5 * 4 * 3 * 2 * 1
 
 5. Write a function to Count Vowels in a String
 Write a function countVowels(str) that counts the number of vowels (a, e, i, o, u) in a given string.
@@ -63,3 +58,27 @@ function findMax(num1, num2){
 console.log(findMax(3, 11))
 
 console.log("=====> TASK 2 ⬆️ ENDS <=====")
+
+/* 
+3. Function to Check if a String is a Palindrome
+Create a function isPalindrome(str) that checks if a given string is a palindrome (reads the same forward and backward). You can not use any string function that we have not learned in the series so far.
+*/
+console.log("=====> TASK 3 ❌ is incompleted due to lack of knowledge <=====")
+
+/**
+4. Write a Function to Find Factorial of a Number
+Create a function factorial(n) that returns the factorial of n. Example 5! = 5 * 4 * 3 * 2 * 1
+*/
+
+function factorial(n) {
+    let number = 1;
+    while (n > 0) {  
+        number = number * n;
+        n--;
+    }
+    return number;
+}
+
+console.log(factorial(3)); 
+
+console.log("=====> TASK 4 ⬆️ ENDS <=====")
