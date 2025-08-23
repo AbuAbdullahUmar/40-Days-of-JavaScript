@@ -1,12 +1,6 @@
 console.log('Day 6 Assignment Script is loaded')
 /*
 
-5. Write a function to Count Vowels in a String
-Write a function countVowels(str) that counts the number of vowels (a, e, i, o, u) in a given string.
-
-6. Write a Function to Capitalize the First Letter of Each Word in a Sentence
-Write a function capitalizeWords(sentence) that takes a sentence and capitalizes the first letter of each word. You can use the toUpperCase() method of string to convert the lowercase to uppercase.
-
 7. Use an IIFE to Print “Hello, JavaScript!”
 Write an IIFE that prints "Hello, JavaScript!" to the console. Here the Second word must be supplied using paramneter and argument.
 
@@ -82,3 +76,40 @@ function factorial(n) {
 console.log(factorial(3)); 
 
 console.log("=====> TASK 4 ⬆️ ENDS <=====")
+
+/* 
+5. Write a function to Count Vowels in a String
+Write a function countVowels(str) that counts the number of vowels (a, e, i, o, u) in a given string.
+
+let learningJs = "40 days of Javascripts by tapaScript"
+function countVowels(str){
+    let count = 0;
+    for (i of str){
+        if (i == "a" || i == "e" ||i == "i" ||i == "o" ||i == "u"){
+         count++
+        }
+    }
+    console.log(count)
+}
+countVowels(learningJs);
+*/
+
+let learningJs = "40 days of Javascripts by tapaScript"
+function countVowels(str){
+    let vowels = 0;
+    for (str of learningJs){
+        if (str == "a" || str == "e"||str == "i" || str == "o"||str == "u"){
+            vowels++
+        }
+    }
+    return vowels;
+}
+
+let total = countVowels(learningJs);
+
+console.log("Total Vowels:", total)
+
+/**
+6. Write a Function to Capitalize the First Letter of Each Word in a Sentence
+Write a function capitalizeWords(sentence) that takes a sentence and capitalizes the first letter of each word. You can use the toUpperCase() method of string to convert the lowercase to uppercase.
+*/
