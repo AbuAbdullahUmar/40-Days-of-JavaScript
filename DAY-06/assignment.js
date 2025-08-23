@@ -80,18 +80,6 @@ console.log("=====> TASK 4 ⬆️ ENDS <=====")
 /* 
 5. Write a function to Count Vowels in a String
 Write a function countVowels(str) that counts the number of vowels (a, e, i, o, u) in a given string.
-
-let learningJs = "40 days of Javascripts by tapaScript"
-function countVowels(str){
-    let count = 0;
-    for (i of str){
-        if (i == "a" || i == "e" ||i == "i" ||i == "o" ||i == "u"){
-         count++
-        }
-    }
-    console.log(count)
-}
-countVowels(learningJs);
 */
 
 let learningJs = "40 days of Javascripts by tapaScript"
